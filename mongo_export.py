@@ -66,9 +66,9 @@ def main(_):
             else:
                 bounding_boxes[index] = [bounding_box]
             num_boxes += 1
-    logging.warning('Found %d images with %d bounding boxes. '
-                    'Skipped %d images without annotations.' % (
-                        num_images, num_boxes, num_missing))
+    logging.info('Found %d images with %d bounding boxes. '
+                 'Skipped %d images without annotations.' % (
+                     num_images, num_boxes, num_missing))
 
     # Write the output CSV.
     with open(FLAGS.output_csv, 'w') as csv_file:
