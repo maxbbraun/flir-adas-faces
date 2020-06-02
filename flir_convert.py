@@ -16,7 +16,7 @@ flags.DEFINE_string('annotations_json', 'thermal_annotations.json', 'The JSON '
                     'file with the annotations inside the dataset directory.')
 flags.DEFINE_list('categories', 'person,human face', 'The list of category '
                   'labels consider.')
-flags.DEFINE_integer('min_box_size', 25, 'The minimum size in pixels for an '
+flags.DEFINE_integer('min_box_width', 25, 'The minimum width in pixels for an '
                      'annotation to be considered.')
 flags.DEFINE_string('output_dir', None, 'The directory in which to save the '
                     'converted images.')
@@ -81,7 +81,7 @@ def main(_):
 
         # Discard small bounding boxes.
         bounding_box = annotation['bbox']
-        if bounding_box[2] < FLAGS.min_box_size:
+        if bounding_box[2] < FLAGS.min_box_width:
             num_discarded_size += 1
             continue
 
