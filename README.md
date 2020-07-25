@@ -4,7 +4,7 @@ Face bounding boxes for the [FLIR ADAS Thermal Dataset](https://www.flir.com/oem
 
 ## License
 
-Only the annotation data ([bounding-boxes.csv](https://github.com/maxbbraun/flir-adas-faces/releases/download/v1.0/bounding-boxes.csv)) is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/) license.
+Only the annotation data ([bounding-boxes.csv](https://github.com/maxbbraun/flir-adas-faces/releases/latest/download/bounding-boxes.csv)) is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/) license.
 
 The original terms and conditions of the [FLIR ADAS Terms of Use](https://www.flir.com/oem/adas/adas-dataset-form) apply to the images.
 
