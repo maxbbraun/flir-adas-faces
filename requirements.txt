@@ -1,4 +1,4 @@
 absl-py==0.9.0
 opencv-python==4.2.0.34
-pymongo==3.10.1
+pymongo==4.6.3
 tqdm==4.46.0
